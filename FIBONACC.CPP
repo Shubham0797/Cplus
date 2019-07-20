@@ -1,11 +1,12 @@
 // to print fibonacci series
 
-#include<iostream.h>
+#include<iostream>
 #include<conio.h>
-void main()
+using namespace std;
+int main()
 {
  int a=0,b=1,c=0;
- clrscr();
+ 
  cout<<a<<endl;
 
  cout<<b<<endl;
@@ -17,5 +18,5 @@ void main()
    b=c;
    cout<<c<<endl;
  }
- getch();
+ return 0;
 }
